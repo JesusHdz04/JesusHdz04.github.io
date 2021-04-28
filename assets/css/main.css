@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    min-height: 100vh;
+    background: url('../img/homeBanner.png') no-repeat left bottom/cover;
+    color: #fff;
+}
+
+.logo-header
+{
+    font-family: 'Audiowide', cursive;
+    position: absolute;
+    width: 274px;
+    height: 61px;
+    left: 100px;
+    top: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 61px;
+}
+
+.logo-highlight
+{
+    color: #42F5F5;
+}
+
+.home-title
+{
+    font-family: 'Acme', sans-serif;
+    position: absolute;
+    width: 353px;
+    height: 122px;
+    left: 100px;
+    top: 200px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 61px;
+}
+
+.home-desc
+{
+    font-family: 'Actor', sans-serif;
+    position: absolute;
+    width: 550px;
+    height: 58px;
+    left: 99px;
+    top: 350px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    mix-blend-mode: normal;
+}
+
+.home-btn
+{
+    border: none;
+    position: absolute;
+    width: 229px;
+    height: 55px;
+    left: 100px;
+    top: 480px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0 , 0 , 0.4));
+    background: rgba(66, 245, 245, 0.77);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.home-btn:hover
+{
+    background: rgba(70, 245, 66, 0.77);
+    cursor: pointer;
+}
