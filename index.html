@@ -15,10 +15,7 @@
             <a href="https://twitter.com/" target="_blank"><img src="assets/img/icon-twitter.svg" alt="" class="icon-tw"></a>
             <a href="https://facebook.com/" target="_blank"><img src="assets/img/icon-facebook.svg" alt="" class="icon-fb"></a>
             <h1 class="logo-header">Jaiba<span class="logo-highlight">S</span>top</h1>
-            <p class="home-title">Lorem ipsum dolor
-                sit amet
-            </p>
-
+            <p class="home-title" id="typed"></p>
             <p class="home-desc">Lorem Ipsum is simply dummy text of the printing and
                 typesetting industry. Lorem Ipsum has been.
             </p>
@@ -26,5 +23,18 @@
             <input type="button" value="Comenzar" class="home-btn">
         </div>
     </header>
+
+    <script src="./assets/js/typed.js"></script>
+    <script>
+      var typed = new Typed("#typed", {
+        strings: ["Bienvenido!", "Llega a tu destino!", "Ubica tu ruta!"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        backDelay: 900,
+        loop: true,
+        showCursor: false,
+        contentType: null,
+      });
+    </script>
 </body>
 </html>
