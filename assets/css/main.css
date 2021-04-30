@@ -28,7 +28,8 @@ header
     height: 100vh;
     z-index: 9999;
     overflow: visible;
-    background: #c3c3c3;
+    background: url('../img/loaderbg.webp') no-repeat center center;
+    background-size: 100%;
 }
 
 #loader-img
