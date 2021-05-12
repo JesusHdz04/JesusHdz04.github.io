@@ -226,3 +226,177 @@ header
         display: none;
     }
 }
+/*c0a4r0l1o2s*/
+/* .contenedor
+{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    position:absolute;
+    top: 650px;
+    margin: auto;
+    padding: 50px 0px 50px 20px;
+}
+.sec1
+{
+    width: 90%;
+}
+.Pinf
+{
+    width: 80%;
+    border: 1px black;
+    border-radius: 19px;
+}*/
+
+@media screen and (max-width: 980px)
+{
+    .home-banner
+    {
+        width: 100%;
+        height: 650px;
+    }
+    .content-box .home-desc
+    {
+        width: 350px;
+        height: 100px;
+    }
+}
+/*
+section
+{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 100px;
+}
+
+
+#pie
+{
+    display: block;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.contain
+{
+    width: 100%;
+    height: 150px;
+    color: #fff;
+
+
+    background: rgb(46,4,191);
+    background: linear-gradient(45deg, rgba(46,4,191,1) 7%, rgba(53,44,204,0.9486169467787114) 32%, rgba(60,81,215,0.9710259103641457) 54%, rgba(0,212,255,0.8365721288515406) 83%);
+}
+.contact
+{
+    position: absolute;
+    width: 445px;
+    padding: 10px 20px 10px 20px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 127.5%;
+    /* or 32px */
+
+    color: #FFF;
+}
+.red
+{
+    width: 50%;
+    position: relative;
+    top: 35px;
+    left: 35px;
+}
+.derechos
+{
+    width: 60%;
+    padding: 50px 0px 0px 0px;
+} */
+
+
+
+
+/*caja*/
+.contenedor
+{
+    margin: auto;
+    width: 100%;
+}
+.caja__columna
+{
+    color: #000;
+    background: #0F222b;
+    position: relative;
+    text-align: center;
+    width: 98%;
+    height: 440px;
+    margin: 10px;
+}
+.caja__columna .texto
+{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border: 2px solid #69ca62;
+    padding: 30px;
+}
+.caja__columna .texto h2
+{
+    font-size: 40px;
+    margin: 0 0 10px;
+}
+.caja__columna .texto p 
+{
+    font-size: 18px;
+}
+svg,rect
+{
+    top 0;
+    left 0;
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+}
+rect
+{
+    stroke: #69ca62;
+    stroke-width: 4;
+    stroke-dasharray: 400;
+    animation: animate 4s linear infinite;
+}
+.caja .contenedor
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@keyframes animate
+{
+    0%
+    {
+        stroke-dashoffset: 800;
+    }
+    100%
+    {
+        stroke-dashoffset: 0;
+    }
+}
+@media(min-width: 520px)
+{
+    .caja__columna
+    {
+        width: 82%;
+        height: 400px;
+    }
+}
+
+
